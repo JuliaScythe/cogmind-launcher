@@ -4,7 +4,7 @@ Started:    =
 Done:       #
 Stopped:    !
 
-- Launch cogmind
+# Launch cogmind
 - Update cogmind (requires putting in your update url in options)
 - Check for updates automatically on launch
     - Manual check for updates
@@ -12,5 +12,5 @@ Stopped:    !
     - Copy saves across on update
 - Sync saves with previous or other cogmind instances
     - Autodetect steam instances, require path inputting for others
-- Open config directory
+# Open config directory
     - In future, add integrated advanced.cfg editor
