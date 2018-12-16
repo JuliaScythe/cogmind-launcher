@@ -1,0 +1,8 @@
+/home/jake/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/183.4588.63/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jake/cogmindLauncher
+-- Boost version: 1.55.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jake/cogmindLauncher/cmake-build-debug
