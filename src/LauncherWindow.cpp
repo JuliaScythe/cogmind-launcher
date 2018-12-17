@@ -4,6 +4,7 @@
 
 #include "LauncherWindow.h"
 #include "CogmindLauncher.h"
+#include <iostream>
 
 void connectWindow(Glib::RefPtr<Gtk::Builder> builder, CogmindLauncher* launcher) {
 
@@ -21,7 +22,7 @@ void connectWindow(Glib::RefPtr<Gtk::Builder> builder, CogmindLauncher* launcher
     builder->get_widget("openManualButton", button);
     button->signal_clicked().connect(sigc::mem_fun(launcher, &CogmindLauncher::openManual));
 
-
+    updateStatsInformation(builder, launcher);
 }
 
 /**
@@ -38,5 +39,10 @@ void updateStatsInformation(Glib::RefPtr<Gtk::Builder> builder, CogmindLauncher*
     Gtk::Label* label;
 
     builder->get_widget("gameVersionLabel", label);
-    label->set_text(launcher->getGameVersion());
+
+    auto version = launcher->getGameVersion();
+
+    std::cout <<version;
+
+    label->set_text(version);
 }

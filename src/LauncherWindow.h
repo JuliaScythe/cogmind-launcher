@@ -9,5 +9,6 @@
 #include "CogmindLauncher.h"
 
 void connectWindow(Glib::RefPtr<Gtk::Builder> builder, CogmindLauncher* launcher);
+void updateStatsInformation(Glib::RefPtr<Gtk::Builder> builder, CogmindLauncher* launcher);
 
 #endif //COGMINDLAUNCHER_LAUNCHERWINDOW_H

@@ -2524,7 +2524,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
                   <object class="GtkLabel" id="gameVersionLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Beta 7.2</property>
+                    <property name="label" translatable="yes">Loading...</property>
                     <property name="xalign">1</property>
                   </object>
                   <packing>
@@ -2572,7 +2572,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
                   <object class="GtkLabel" id="serverGameVersionLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Beta 7.2</property>
+                    <property name="label" translatable="yes">Loading...</property>
                     <property name="xalign">1</property>
                   </object>
                   <packing>

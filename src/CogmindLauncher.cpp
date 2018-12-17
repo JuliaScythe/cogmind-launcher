@@ -9,6 +9,7 @@
 #include <cstdlib>
 #include <fstream>
 #include <boost/filesystem.hpp>
+#include <boost/regex.hpp>
 
 CogmindLauncher::CogmindLauncher() : configurationManager(libconfig::Config()) {
     std::cout << "Cogmind Launcher v0.1" << std::endl;
@@ -65,5 +66,17 @@ void CogmindLauncher::openManual() {
 }
 
 const std::string CogmindLauncher::getGameVersion() {
-    return "";
+    std::ifstream file;
+    file.open(cogmindBaseDirectory+"manual.txt");               // NOT FUCKING MAUNAL.TXT
+    boost::regex expression = boost::regex("(Beta .*$)");
+    std::string str;
+
+    while(std::getline(file, str)) {
+        boost::smatch results;
+        if(boost::regex_search(str, results, expression))  {
+            return results.str().erase(results.str().length()-1); // Strip trailing newline
+        }
+    }
+
+    return "Cogmind not installed";
 }
