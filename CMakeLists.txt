@@ -8,6 +8,6 @@ find_package(PkgConfig)
 pkg_check_modules(GTKMM gtkmm-3.0)
 pkg_check_modules(G libconfig++)
 
-find_package(Boost COMPONENTS filesystem)
+find_package(Boost COMPONENTS filesystem regex)
 
 add_subdirectory("src")

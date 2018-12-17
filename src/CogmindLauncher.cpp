@@ -60,3 +60,10 @@ void CogmindLauncher::openScreenshotsDirectory() {
     system(std::string("xdg-open file://" + cogmindBaseDirectory + "screenshots/ &").c_str());
 }
 
+void CogmindLauncher::openManual() {
+    system(std::string("xdg-open " + cogmindBaseDirectory + "manual.txt &").c_str());
+}
+
+const std::string CogmindLauncher::getGameVersion() {
+    return "";
+}

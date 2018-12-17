@@ -2483,7 +2483,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
               </packing>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="openManualButton">
                 <property name="label" translatable="yes">Open Manual</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
@@ -2521,7 +2521,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkLabel">
+                  <object class="GtkLabel" id="gameVersionLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">Beta 7.2</property>
@@ -2545,7 +2545,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkLabel">
+                  <object class="GtkLabel" id="launcherVersionLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">0.1</property>
@@ -2569,7 +2569,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkLabel">
+                  <object class="GtkLabel" id="serverGameVersionLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">Beta 7.2</property>

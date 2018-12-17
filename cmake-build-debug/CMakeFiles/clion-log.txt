@@ -2,6 +2,7 @@
 -- Boost version: 1.55.0
 -- Found the following Boost libraries:
 --   filesystem
+--   regex
 --   system
 -- Configuring done
 -- Generating done

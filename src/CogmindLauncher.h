@@ -18,6 +18,9 @@ public:
     void launchGame();
     void openCogmindDirectory();
     void openScreenshotsDirectory();
+    void openManual();
+
+    const std::string getGameVersion();
 
 private:
     std::string cogmindBaseDirectory;

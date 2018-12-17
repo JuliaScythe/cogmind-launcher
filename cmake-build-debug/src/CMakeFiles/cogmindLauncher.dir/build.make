@@ -110,6 +110,7 @@ src/cogmindLauncher: src/CMakeFiles/cogmindLauncher.dir/LauncherWindow.cpp.o
 src/cogmindLauncher: src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
 src/cogmindLauncher: src/CMakeFiles/cogmindLauncher.dir/build.make
 src/cogmindLauncher: /usr/local/lib/libboost_filesystem.so
+src/cogmindLauncher: /usr/local/lib/libboost_regex.so
 src/cogmindLauncher: /usr/local/lib/libboost_system.so
 src/cogmindLauncher: src/CMakeFiles/cogmindLauncher.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jake/cogmindLauncher/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cogmindLauncher"
