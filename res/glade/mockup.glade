@@ -2569,7 +2569,7 @@ Cogmind Alpha 1 (0.10.150517) - "Hello LRC-V3"
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkLabel" id="serverGameVersionLabel">
+                  <object class="GtkLabel" id="remoteVersionLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">Loading...</property>

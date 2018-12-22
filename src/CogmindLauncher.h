@@ -22,6 +22,8 @@ public:
 
     const std::string getGameVersion();
 
+    const std::string getLatestVersion();
+
 private:
     std::string cogmindBaseDirectory;
 

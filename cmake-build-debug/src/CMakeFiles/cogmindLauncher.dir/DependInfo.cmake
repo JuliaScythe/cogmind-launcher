@@ -48,6 +48,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/gdkmm-3.0"
   "/usr/lib64/gdkmm-3.0/include"
   "/usr/local/include"
+  "../src/include"
   )
 
 # Targets to which this target links.

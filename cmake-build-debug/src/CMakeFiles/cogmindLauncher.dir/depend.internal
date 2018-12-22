@@ -12,6 +12,7 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/config/abi_suffix.hpp
  /usr/local/include/boost/config/auto_link.hpp
  /usr/local/include/boost/config/compiler/nvcc.hpp
+ /usr/local/include/boost/config/no_tr1/cmath.hpp
  /usr/local/include/boost/config/no_tr1/memory.hpp
  /usr/local/include/boost/config/no_tr1/utility.hpp
  /usr/local/include/boost/config/posix_features.hpp
@@ -22,6 +23,7 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/cstdint.hpp
  /usr/local/include/boost/current_function.hpp
  /usr/local/include/boost/detail/bitmask.hpp
+ /usr/local/include/boost/detail/container_fwd.hpp
  /usr/local/include/boost/detail/indirect_traits.hpp
  /usr/local/include/boost/detail/interlocked.hpp
  /usr/local/include/boost/detail/is_function_ref_tester.hpp
@@ -37,8 +39,18 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/filesystem/operations.hpp
  /usr/local/include/boost/filesystem/path.hpp
  /usr/local/include/boost/filesystem/path_traits.hpp
+ /usr/local/include/boost/functional/hash.hpp
+ /usr/local/include/boost/functional/hash/detail/float_functions.hpp
+ /usr/local/include/boost/functional/hash/detail/hash_float.hpp
+ /usr/local/include/boost/functional/hash/detail/limits.hpp
+ /usr/local/include/boost/functional/hash/extensions.hpp
+ /usr/local/include/boost/functional/hash/hash.hpp
  /usr/local/include/boost/functional/hash/hash_fwd.hpp
  /usr/local/include/boost/functional/hash_fwd.hpp
+ /usr/local/include/boost/integer.hpp
+ /usr/local/include/boost/integer/static_log2.hpp
+ /usr/local/include/boost/integer_fwd.hpp
+ /usr/local/include/boost/integer_traits.hpp
  /usr/local/include/boost/io/detail/quoted_manip.hpp
  /usr/local/include/boost/io/ios_state.hpp
  /usr/local/include/boost/io_fwd.hpp
@@ -223,6 +235,7 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp
  /usr/local/include/boost/preprocessor/repetition/for.hpp
  /usr/local/include/boost/preprocessor/repetition/repeat.hpp
+ /usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp
  /usr/local/include/boost/preprocessor/seq/detail/split.hpp
  /usr/local/include/boost/preprocessor/seq/elem.hpp
  /usr/local/include/boost/preprocessor/seq/first_n.hpp
@@ -240,6 +253,56 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/preprocessor/tuple/to_list.hpp
  /usr/local/include/boost/preprocessor/variadic/elem.hpp
  /usr/local/include/boost/preprocessor/variadic/size.hpp
+ /usr/local/include/boost/ref.hpp
+ /usr/local/include/boost/regex.hpp
+ /usr/local/include/boost/regex/config.hpp
+ /usr/local/include/boost/regex/config/borland.hpp
+ /usr/local/include/boost/regex/config/cwchar.hpp
+ /usr/local/include/boost/regex/pattern_except.hpp
+ /usr/local/include/boost/regex/pending/object_cache.hpp
+ /usr/local/include/boost/regex/pending/static_mutex.hpp
+ /usr/local/include/boost/regex/regex_traits.hpp
+ /usr/local/include/boost/regex/v4/basic_regex.hpp
+ /usr/local/include/boost/regex/v4/basic_regex_creator.hpp
+ /usr/local/include/boost/regex/v4/basic_regex_parser.hpp
+ /usr/local/include/boost/regex/v4/c_regex_traits.hpp
+ /usr/local/include/boost/regex/v4/char_regex_traits.hpp
+ /usr/local/include/boost/regex/v4/cpp_regex_traits.hpp
+ /usr/local/include/boost/regex/v4/error_type.hpp
+ /usr/local/include/boost/regex/v4/instances.hpp
+ /usr/local/include/boost/regex/v4/iterator_category.hpp
+ /usr/local/include/boost/regex/v4/iterator_traits.hpp
+ /usr/local/include/boost/regex/v4/match_flags.hpp
+ /usr/local/include/boost/regex/v4/match_results.hpp
+ /usr/local/include/boost/regex/v4/perl_matcher.hpp
+ /usr/local/include/boost/regex/v4/perl_matcher_common.hpp
+ /usr/local/include/boost/regex/v4/perl_matcher_non_recursive.hpp
+ /usr/local/include/boost/regex/v4/perl_matcher_recursive.hpp
+ /usr/local/include/boost/regex/v4/primary_transform.hpp
+ /usr/local/include/boost/regex/v4/protected_call.hpp
+ /usr/local/include/boost/regex/v4/regbase.hpp
+ /usr/local/include/boost/regex/v4/regex.hpp
+ /usr/local/include/boost/regex/v4/regex_format.hpp
+ /usr/local/include/boost/regex/v4/regex_fwd.hpp
+ /usr/local/include/boost/regex/v4/regex_grep.hpp
+ /usr/local/include/boost/regex/v4/regex_iterator.hpp
+ /usr/local/include/boost/regex/v4/regex_match.hpp
+ /usr/local/include/boost/regex/v4/regex_merge.hpp
+ /usr/local/include/boost/regex/v4/regex_raw_buffer.hpp
+ /usr/local/include/boost/regex/v4/regex_replace.hpp
+ /usr/local/include/boost/regex/v4/regex_search.hpp
+ /usr/local/include/boost/regex/v4/regex_split.hpp
+ /usr/local/include/boost/regex/v4/regex_token_iterator.hpp
+ /usr/local/include/boost/regex/v4/regex_traits.hpp
+ /usr/local/include/boost/regex/v4/regex_traits_defaults.hpp
+ /usr/local/include/boost/regex/v4/regex_workaround.hpp
+ /usr/local/include/boost/regex/v4/states.hpp
+ /usr/local/include/boost/regex/v4/sub_match.hpp
+ /usr/local/include/boost/regex/v4/syntax_type.hpp
+ /usr/local/include/boost/regex/v4/w32_regex_traits.hpp
+ /usr/local/include/boost/regex_fwd.hpp
+ /usr/local/include/boost/scoped_array.hpp
+ /usr/local/include/boost/scoped_ptr.hpp
  /usr/local/include/boost/shared_ptr.hpp
  /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp
  /usr/local/include/boost/smart_ptr/detail/atomic_count.hpp
@@ -284,6 +347,8 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/smart_ptr/detail/spinlock_sync.hpp
  /usr/local/include/boost/smart_ptr/detail/spinlock_w32.hpp
  /usr/local/include/boost/smart_ptr/detail/yield_k.hpp
+ /usr/local/include/boost/smart_ptr/scoped_array.hpp
+ /usr/local/include/boost/smart_ptr/scoped_ptr.hpp
  /usr/local/include/boost/smart_ptr/shared_ptr.hpp
  /usr/local/include/boost/static_assert.hpp
  /usr/local/include/boost/system/api_config.hpp
@@ -291,6 +356,7 @@ src/CMakeFiles/cogmindLauncher.dir/CogmindLauncher.cpp.o
  /usr/local/include/boost/system/error_code.hpp
  /usr/local/include/boost/system/system_error.hpp
  /usr/local/include/boost/throw_exception.hpp
+ /usr/local/include/boost/type.hpp
  /usr/local/include/boost/type_traits/add_const.hpp
  /usr/local/include/boost/type_traits/add_lvalue_reference.hpp
  /usr/local/include/boost/type_traits/add_pointer.hpp

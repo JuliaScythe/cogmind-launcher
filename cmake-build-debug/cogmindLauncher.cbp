@@ -80,6 +80,7 @@
 					<Add directory="/usr/include/gdkmm-3.0"/>
 					<Add directory="/usr/lib64/gdkmm-3.0/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jake/cogmindLauncher/src/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
@@ -136,6 +137,7 @@
 					<Add directory="/usr/include/gdkmm-3.0"/>
 					<Add directory="/usr/lib64/gdkmm-3.0/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jake/cogmindLauncher/src/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>

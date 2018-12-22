@@ -10,6 +10,9 @@
 #include <fstream>
 #include <boost/filesystem.hpp>
 #include <boost/regex.hpp>
+#include <curlpp/cURLpp.hpp>
+#include <curlpp/Easy.hpp>
+#include <curlpp/Options.hpp>
 
 CogmindLauncher::CogmindLauncher() : configurationManager(libconfig::Config()) {
     std::cout << "Cogmind Launcher v0.1" << std::endl;
@@ -41,6 +44,7 @@ CogmindLauncher::CogmindLauncher() : configurationManager(libconfig::Config()) {
         configurationManager.writeFile(configPath.c_str());
     } // ew
 
+    cURLpp::initialize();
 
 }
 
@@ -68,15 +72,31 @@ void CogmindLauncher::openManual() {
 const std::string CogmindLauncher::getGameVersion() {
     std::ifstream file;
     file.open(cogmindBaseDirectory+"manual.txt");               // NOT FUCKING MAUNAL.TXT
-    boost::regex expression = boost::regex("(Beta .*$)");
+    boost::regex expression = boost::regex("(Beta .*)$");
     std::string str;
 
     while(std::getline(file, str)) {
         boost::smatch results;
         if(boost::regex_search(str, results, expression))  {
-            return results.str().erase(results.str().length()-1); // Strip trailing newline
+            return results.str().erase(results.str().length()-1);
         }
     }
 
     return "Cogmind not installed";
+}
+
+const std::string CogmindLauncher::getLatestVersion() {
+
+    std::ostringstream os;
+    os <<(curlpp::Options::Url("http://www.gridsagegames.com/cogmind/temp/news.php"));
+    std::string versionString = os.str();
+
+    boost::regex expression = boost::regex("version_(.*):");
+
+    boost::smatch results;
+    if(boost::regex_search(versionString, results, expression))  {
+        return results[1];
+    }
+
+    return "Error getting latest version";
 }

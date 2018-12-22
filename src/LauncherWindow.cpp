@@ -41,8 +41,10 @@ void updateStatsInformation(Glib::RefPtr<Gtk::Builder> builder, CogmindLauncher*
     builder->get_widget("gameVersionLabel", label);
 
     auto version = launcher->getGameVersion();
-
-    std::cout <<version;
+    auto networkVersion = launcher->getLatestVersion();
 
     label->set_text(version);
+
+    builder->get_widget("remoteVersionLabel", label);
+    label->set_text(networkVersion);
 }
